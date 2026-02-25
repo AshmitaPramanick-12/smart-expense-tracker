@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Smart Expense Tracker Pro</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+
+<h1>Smart Expense Tracker</h1>
+
+<button id="themeToggle">🌙 Toggle Dark Mode</button>
+
+<form id="expenseForm">
+  <input type="text" id="name" placeholder="Expense Name" required>
+  <input type="number" id="amount" placeholder="Amount" required>
+  <input type="date" id="date" required>
+
+  <select id="category">
+    <option value="Food">Food</option>
+    <option value="Travel">Travel</option>
+    <option value="Shopping">Shopping</option>
+    <option value="Custom">Other</option>
+  </select>
+
+  <input type="text" id="customCategory" placeholder="Enter custom category" style="display:none;">
+
+  <button type="submit">Add</button>
+</form>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Amount</th>
+      <th>Date</th>
+      <th>Category</th>
+      <th>Actions</th>
+    </tr>
+  </thead>
+  <tbody id="expenseList"></tbody>
+</table>
+
+<div class="summary">
+  <h3>Monthly Summary</h3>
+  <p>This Month: ₹ <span id="thisMonth">0</span></p>
+</div>
+
+<div class="total">Total: ₹ <span id="totalAmount">0</span></div>
+
+<button id="clearBtn">Clear All</button>
+<button id="exportBtn">Export CSV</button>
+
+<canvas id="expenseChart"></canvas>
+
+<script src="script.js"></script>
+</body>
+</html>

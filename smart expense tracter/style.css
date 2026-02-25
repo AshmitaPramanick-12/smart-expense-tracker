@@ -1,0 +1,83 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f6f8;
+  padding: 20px;
+  max-width: 900px;
+  margin: auto;
+  transition: 0.3s;
+}
+
+.dark {
+  background: #1e1e1e;
+  color: white;
+}
+
+.dark table {
+  background: #2c2c2c;
+}
+
+h1 {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+input, select, button {
+  padding: 8px;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  background: #4CAF50;
+  color: white;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+th {
+  background: #4CAF50;
+  color: white;
+}
+
+.total {
+  margin-top: 15px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.summary {
+  margin-top: 20px;
+}
+
+#clearBtn {
+  background: red;
+}
+
+#exportBtn {
+  background: #2196F3;
+}
+
+#themeToggle {
+  margin-bottom: 15px;
+  background: #333;
+}
