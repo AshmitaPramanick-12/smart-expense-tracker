@@ -31,5 +31,5 @@ Smart Expense Tracker Dashboard - A dynamic expense tracking web application wit
 <img width="401" height="691" alt="image" src="https://github.com/user-attachments/assets/46615e3c-5efe-4444-9c7c-b394e442d0b2" />
 
 ## 🌐 Live Demo 🔗
-[Live link]((https://github.com/AshmitaPramanick-12/smart-expense-tracker/tree/main/smart%20expense%20tracter))
+[Live link]([(https://github.com/AshmitaPramanick-12/smart-expense-tracker/tree/main/smart%20expense%20tracter)](https://benevolent-kitten-ce979b.netlify.app/))
 
